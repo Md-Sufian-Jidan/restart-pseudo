@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudo element</title>
+    <style>
+        h3::after {
+            content: '.pdf';
+            color: red;
+            font-size: 10px;
+            background-color: yellowgreen;
+        }
+
+        h3::before {
+            content: 'start : ';
+            color: red;
+            font-size: 10px;
+            background-color: yellowgreen;
+        }
+        p::first-letter {
+            font-size: 3rem;
+        }
+        p::first-line {
+            background-color: aquamarine;
+        }
+        ::selection {
+            background-color: yellow;
+        }
+        input::placeholder {
+            color: blue;
+        }
+
+    </style>
+</head>
+<body>
+    <h3>heading 1</h3>
+    <h3>Heading 2</h3>
+    <h3>Heading 3</h3>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae itaque ipsum non atque enim quasi, nihil nam dolore magnam eveniet?</p>
+    <p>Exercitationem, et. Et fuga sed modi, maiores a dignissimos iste rem, vitae exercitationem ab consequatur obcaecati, sit omnis sunt? Omnis.</p>
+    <p>Accusantium consequatur repellat, illo, eaque nihil commodi sint aliquam excepturi cumque impedit error placeat eum magnam ex doloribus ducimus. Vel.</p>
+
+    <input type="text" placeholder="Your name">
+</body>
+</html>
