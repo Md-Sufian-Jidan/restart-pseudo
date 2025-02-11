@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudo</title>
+    <style>
+        h3 {
+            color: peru;
+        }
+        h3:hover{
+            color: tomato;
+            background-color: skyblue;
+        }
+        input:focus {
+            color: blue;
+            padding: 20px;
+            outline: 0px;
+            border: 2px solid plum;
+        }
+        a:visited {
+            color: gray;
+        }
+        /* li:last-child {
+            color: red;
+        } */
+         /* li:first-child {
+            color: pink;
+         } */
+          li:nth-child(2n + 1) {
+            color: purple;
+          }
+    </style>
+</head>
+<body>
+    <h3>My heading</h3>
+    <input type="text">
+    <input type="text">
+    <input type="text">
+
+    <a href="https://google.com">Google</a>
+
+    <a href="https://youtube.com">youtube</a>
+
+    <ul>
+        <li>Alia</li>
+        <li>Dalia</li>
+        <li>kalia</li>
+        <li>malia</li>
+        <li>palaia</li>
+        <li>jalia</li>
+    </ul>
+</body>
+</html>
